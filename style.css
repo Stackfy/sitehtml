@@ -5,9 +5,8 @@
 
 nav ul {
     list-style-type: none;
-    margin: 2;
-    padding: 1;
     display: flex;
+    margin-left: 120px;
 }
 
 nav li {
