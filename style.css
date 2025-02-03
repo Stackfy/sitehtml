@@ -4,6 +4,10 @@
     color: cornsilk;
 }
 
+#logo{
+  height: 40px; /* Définit la taille du logo */
+  width: auto; /* Garde les proportions du logo */
+}
 
 nav ul {
     font-size: 20px;
