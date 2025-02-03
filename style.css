@@ -5,8 +5,9 @@
 }
 
 #logo{
-  height: 40px; /* Définit la taille du logo */
-  width: auto; /* Garde les proportions du logo */
+    height: 100px;
+    width: auto;
+    margin-left: -150px;
 }
 
 nav ul {
