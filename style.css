@@ -14,3 +14,7 @@ nav ul {
 nav li {
     flex: 0.2;
 }
+
+#mention{
+    text-align: right;
+}
