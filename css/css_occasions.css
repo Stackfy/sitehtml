@@ -1,1 +1,28 @@
 
+* {
+    font-family: "Nunito", serif;
+    background-color: #000000;
+    color: cornsilk;
+}
+
+#logo{
+    height: 100px;
+    width: auto;
+    margin-left: -150px;
+}
+
+nav ul {
+    font-size: 20px;
+    list-style-type: none;
+    display: flex;
+	margin-left: 120px;
+	padding-top: 20px;	
+}
+
+nav li {
+    flex: 0.4;
+}
+
+#mention{
+    text-align: right;
+}
