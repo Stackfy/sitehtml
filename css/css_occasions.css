@@ -23,7 +23,13 @@ nav li {
     flex: 0.4;
 }
 
-#voiture {
+.voiture1-detail{
+    text-align: right;
+}
 
-    text-align: left;
+.voiture2-detail{
+    text-align: right;
+}
+.voiture3-detail{
+    text-align: right;
 }
