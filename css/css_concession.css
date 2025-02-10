@@ -24,5 +24,6 @@ nav li {
 }
 
 #texte{
-    text-align: right;
+    border: 1px solid #ccc;
+    padding: 20px;
 }
