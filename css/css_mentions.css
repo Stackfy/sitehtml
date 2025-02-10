@@ -23,3 +23,7 @@ nav li {
     flex: 0.4;
 }
 
+#mention{
+    border: 0.5px;
+    border-color: aqua;
+}
