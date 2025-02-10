@@ -18,7 +18,9 @@ nav ul {
 	margin-left: 120px;
 	padding-top: 20px;	
 }
-
+h1{
+    color:springgreen
+}
 nav li {
     flex: 0.4;
 }
