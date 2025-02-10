@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-  <script src="script.js"></script>
+  <script src="../script.js"></script>
   <link rel="stylesheet" href="../css/css_occasions.css">
   <title>MotorHouse</title>
 </head>
@@ -22,10 +22,15 @@
     </ul>
   </nav>
   <h1>Les voitures du moment : </h1>
+  <div id="slider">
+    <img src="../images/Bmw_Serie_5_G60.PNG" alt="bmw" id="slide">
+    <div id="precedent" onclick="ChangeSlide(-1)"></div>
+    <div id="suivant" onclick="ChangeSlide(1)"></div>
+</div>
   <p id="voiture1">BMW Serie 5 G60</p>
-  <p id="voiture1">62800km au compteur</p>
+  <p id="voiture1">2020</p>
+  <p id="voiture1">Electrique</p>
   <p id="voiture1">à partir de 75.000€</p>
-  <img id="voiture1" src="../images/Bmw_Serie_5_G60.PNG">
   <!-- bas de page-->
   <footer>
     <p>© 2025 Concessionnaire MOTORHOUSE</p>
