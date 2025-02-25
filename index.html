@@ -7,78 +7,38 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
   <link rel="stylesheet" href="style.css">
-  <title>MotorHouse</title>
+  <title>MotorHouse</title> 
 </head>
 <body>
 
 <nav>
   <ul>
     <img id="logo" src="images/logoPNG.PNG">
-    <li><a href="../index.html">Accueil</a></li>
+    <li><a href="index.html">Accueil</a></li>
     <li><a href="pages/nos_reprises.html">Reprises</a></li>
     <li><a href="pages/nos_occasions.html">Nos occassions</a></li>
     <li><a href="pages/notre_concession.html">Notre concession</a></li>
   </ul>
-  
 </nav>
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vérification des horaires d'ouverture</title>
-</head>
-<body>
-    <h1>Bienvenue sur notre site</h1>
-    <div id="hours-status"></div> <!-- L'élément où le message sera affiché -->
 
-    <script>
-        function checkOpeningHours() {
-            const now = new Date();
-            const day = now.getDay();  // Jour de la semaine (0 = dimanche, 1 = lundi, etc.)
-            const hour = now.getHours();  // Heure actuelle (de 0 à 23)
-            const minutes = now.getMinutes();  // Minutes actuelles
+<h1>Bienvenue sur notre site</h1>
+<div id="hours-status"></div>
 
-            // Horaires d'ouverture (9h00 à 18h00 du lundi au vendredi)
-            const openingHour = 9;
-            const closingHour = 18;
+<img src="images/concessionaire.jpg" alt="Concessionnaire">
 
-            // Vérifier si c'est un jour de semaine (lundi à vendredi)
-            if (day >= 1 && day <= 5) {
-                if (hour >= openingHour && hour < closingHour) {
-                    document.getElementById('hours-status').innerHTML = "Nous sommes ouverts ! 🎉";
-                    document.getElementById('hours-status').style.color = "green";
-                } else {
-                    document.getElementById('hours-status').innerHTML = "Nous sommes fermés. 🕔 Ouverture à 9h00.";
-                    document.getElementById('hours-status').style.color = "red";
-                }
-            } else {
-                document.getElementById('hours-status').innerHTML = "Nous sommes fermés aujourd'hui. 📅 Ouverture lundi à 9h00.";
-                document.getElementById('hours-status').style.color = "red";
-            }
-        }
-
-        // Appeler la fonction pour vérifier les horaires
-        checkOpeningHours();
-    </script>
-</body>
-</html>
-
-<img src="images/concessionaire.jpg"/>
-
-  <!-- bas de page-->
-  <footer>
-    <p>© 2025 Concessionnaire MOTORHOUSE</p>
-    <p>Adresse: 13 Rue Alex Jany, Vidailhan</p>
-    <p>Téléphone: 01 23 45 67 89</p>
-    <div class="socials">
-      <a href="https://facebook.com">Facebook</a>
-      <a href="https://twitter.com">Twitter</a>
-      <a href="pages/nos_mentions.html">Mentions légales</a>
-    </div>
-  </footer>
+<!-- bas de page -->
+<footer>
+  <p>© 2025 Concessionnaire MOTORHOUSE</p>
+  <p>Adresse: 13 Rue Alex Jany, Vidailhan</p>
+  <p>Téléphone: 01 23 45 67 89</p>
+  <div class="socials">
+    <a href="https://facebook.com">Facebook</a>
+    <a href="https://twitter.com">Twitter</a>
+    <a href="pages/nos_mentions.html">Mentions légales</a>
+  </div>
+</footer>
 
 </body>
 </html>
