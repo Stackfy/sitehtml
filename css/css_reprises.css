@@ -19,7 +19,15 @@ nav ul {
 	padding-top: 20px;	
 }
 
+h2{
+   color:#ff345a
+	
+}
+
 nav li {
     flex: 0.4;
 }
 
+h1{
+    color:#877cff
+}
