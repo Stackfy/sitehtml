@@ -11,15 +11,15 @@ function ouvertoupas() {
     // Vérifier si c'est un jour de semaine (lundi à vendredi)
     if (day >= 1 && day <= 5) {
         if (hour >= openingHour && hour < closingHour) {
-            document.getElementById('hours-status').innerHTML = "Nous sommes ouverts ! 🎉";
-            document.getElementById('hours-status').style.color = "green";
+            document.getElementById('heures-status').innerHTML = "Nous sommes ouverts ! 🎉";
+            document.getElementById('heures-status').style.color = "green";
         } else {
-            document.getElementById('hours-status').innerHTML = "Nous sommes fermés. 🕔 Ouverture à 9h00.";
-            document.getElementById('hours-status').style.color = "red";
+            document.getElementById('heures-status').innerHTML = "Nous sommes fermés. 🕔 Ouverture à 9h00.";
+            document.getElementById('heures-status').style.color = "red";
         }
     } else {
-        document.getElementById('hours-status').innerHTML = "Nous sommes fermés aujourd'hui. 📅 Ouverture lundi à 9h00.";
-        document.getElementById('hours-status').style.color = "red";
+        document.getElementById('heures-status').innerHTML = "Nous sommes fermés aujourd'hui. 📅 Ouverture lundi à 9h00.";
+        document.getElementById('heures-status').style.color = "red";
     }
 }
 
